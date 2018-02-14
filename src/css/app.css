@@ -1,0 +1,53 @@
+body {
+  background: #22c1c3;
+  background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);
+  background: linear-gradient(to right, #fdbb2d, #22c1c3);
+}
+.card {
+  margin-top: 40px;
+}
+.delete-item {
+  cursor: pointer;
+}
+.collection-item {
+  word-break: break-all;
+}
+.collection-not-found {
+  background-color: #fff;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.delete-item {
+  margin-right: 0 !important;
+}
+.fa-thumb-tack {
+  margin-right: 5px;
+}
+/* fixed strange issue with waves */
+input {
+  outline: 0;
+}
+.fa-exclamation-triangle {
+  color: red;
+}
+#toast-container {
+  top: 40px;
+}
+.toast:first-child {
+  margin-top: 0;
+}
+.toast:not(:first-child) {
+  margin-top: 10px;
+}
+@media (max-width: 600px) {
+  #toast-container {
+    top: auto;
+    bottom: 1%;
+  }
+  .toast {
+    width: 80%;
+    margin: 0 auto 15px auto;
+  }
+}
